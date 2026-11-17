@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img">
+  <title>Desenho técnico de uma engrenagem impressa em 3D</title>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <rect width="800" height="600" fill="#101314" />
+  <rect width="800" height="600" fill="url(#grid)" />
+
+  <g fill="none" stroke="#8b9498" stroke-opacity="0.5" stroke-width="1">
+    <path d="M28 40h22M40 28v22M750 40h22M772 28v22M28 560h22M40 548v22M750 560h22M772 548v22" />
+  </g>
+
+  <g fill="#262c2e" stroke="#a3e635" stroke-opacity="0.5" stroke-width="1.5">
+    <g>
+      <rect x="392" y="146" width="16" height="34" rx="4" />
+      <rect x="392" y="146" width="16" height="34" rx="4" transform="rotate(30 400 300)" />
+      <rect x="392" y="146" width="16" height="34" rx="4" transform="rotate(60 400 300)" />
+      <rect x="392" y="146" width="16" height="34" rx="4" transform="rotate(90 400 300)" />
+      <rect x="392" y="146" width="16" height="34" rx="4" transform="rotate(120 400 300)" />
+      <rect x="392" y="146" width="16" height="34" rx="4" transform="rotate(150 400 300)" />
+      <rect x="392" y="146" width="16" height="34" rx="4" transform="rotate(180 400 300)" />
+      <rect x="392" y="146" width="16" height="34" rx="4" transform="rotate(210 400 300)" />
+      <rect x="392" y="146" width="16" height="34" rx="4" transform="rotate(240 400 300)" />
+      <rect x="392" y="146" width="16" height="34" rx="4" transform="rotate(270 400 300)" />
+      <rect x="392" y="146" width="16" height="34" rx="4" transform="rotate(300 400 300)" />
+      <rect x="392" y="146" width="16" height="34" rx="4" transform="rotate(330 400 300)" />
+    </g>
+    <circle cx="400" cy="300" r="126" />
+    <circle cx="400" cy="300" r="40" fill="#101314" />
+  </g>
+
+  <g fill="#101314" stroke="#8b9498" stroke-opacity="0.8" stroke-width="1.4">
+    <circle cx="400" cy="232" r="12" />
+    <circle cx="459" cy="266" r="12" />
+    <circle cx="459" cy="334" r="12" />
+    <circle cx="400" cy="368" r="12" />
+    <circle cx="341" cy="334" r="12" />
+    <circle cx="341" cy="266" r="12" />
+  </g>
+
+  <g stroke="#a3e635" stroke-opacity="0.5" stroke-width="1" fill="none">
+    <circle cx="400" cy="300" r="152" stroke-dasharray="4 6" />
+    <path d="M248 300h44M508 300h44M400 148v34M400 418v34" />
+  </g>
+
+  <g fill="#7d878b" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" letter-spacing="1.5">
+    <text x="52" y="524" font-size="13" fill="#c9d1d3">ENGRENAGEM DE REPOSIÇÃO</text>
+    <text x="52" y="544" fill="#7d878b">PLA · CAMADA 0,12 MM</text>
+    <text x="748" y="524" text-anchor="end">VISTA SUPERIOR</text>
+    <text x="400" y="452" text-anchor="middle" fill="#a3e635">Ø 40 MM</text>
+  </g>
+</svg>

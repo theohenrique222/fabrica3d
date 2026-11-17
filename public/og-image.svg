@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img">
+  <title>Fabrica 3D — impressão 3D sob medida</title>
+  <defs>
+    <pattern id="og-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1" />
+    </pattern>
+    <radialGradient id="og-glow" cx="18%" cy="12%" r="52%">
+      <stop offset="0%" stop-color="#a3e635" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#a3e635" stop-opacity="0" />
+    </radialGradient>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;family=Space+Grotesk:wght@500;600&amp;display=swap');
+      .display { font-family: 'Space Grotesk', 'Helvetica Neue', Arial, sans-serif; font-weight: 600; }
+      .body { font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; }
+      .mono { font-family: 'JetBrains Mono', ui-monospace, monospace; letter-spacing: 2px; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="630" fill="#0d1011" />
+  <rect width="1200" height="630" fill="url(#og-glow)" />
+  <rect width="1200" height="630" fill="url(#og-grid)" />
+
+  <g stroke="#ffffff" stroke-opacity="0.12" stroke-width="1">
+    <path d="M40 40h24M52 28v24M1136 40h24M1148 28v24M40 590h24M52 578v24M1136 590h24M1148 578v24" />
+  </g>
+
+  <g transform="translate(80 60)">
+    <rect width="56" height="56" rx="14" fill="#131719" stroke="#a3e635" stroke-opacity="0.35" />
+    <g fill="none" stroke="#a3e635" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M28 12 46 22 28 32 10 22 28 12Z" />
+      <path d="M10 30 28 40 46 30" stroke-opacity="0.65" />
+      <path d="M10 38 28 48 46 38" stroke-opacity="0.35" />
+    </g>
+  </g>
+  <text x="152" y="100" class="display" font-size="34" fill="#f2f5f3">fabrica<tspan fill="#a3e635">3d</tspan></text>
+
+  <text x="80" y="196" class="mono" font-size="14" fill="#a3e635">IMPRESSÃO 3D SOB DEMANDA · SÃO PAULO</text>
+
+  <text x="80" y="288" class="display" font-size="64" fill="#f2f5f3">Peças sob medida,</text>
+  <text x="80" y="362" class="display" font-size="64" fill="#a3e635">impressas em 3D.</text>
+
+  <text x="80" y="438" class="body" font-size="23" fill="#9aa4a6">Protótipos, peças de reposição e itens personalizados.</text>
+  <text x="80" y="474" class="body" font-size="23" fill="#9aa4a6">Orçamento direto pelo WhatsApp, sem compromisso.</text>
+
+  <g transform="translate(880 300)">
+    <circle r="168" fill="none" stroke="#a3e635" stroke-opacity="0.18" stroke-width="1" stroke-dasharray="4 8" />
+    <g fill="#22282a" stroke="#a3e635" stroke-opacity="0.6" stroke-width="1.6">
+      <rect x="-9" y="-172" width="18" height="38" rx="5" />
+      <rect x="-9" y="-172" width="18" height="38" rx="5" transform="rotate(30)" />
+      <rect x="-9" y="-172" width="18" height="38" rx="5" transform="rotate(60)" />
+      <rect x="-9" y="-172" width="18" height="38" rx="5" transform="rotate(90)" />
+      <rect x="-9" y="-172" width="18" height="38" rx="5" transform="rotate(120)" />
+      <rect x="-9" y="-172" width="18" height="38" rx="5" transform="rotate(150)" />
+      <rect x="-9" y="-172" width="18" height="38" rx="5" transform="rotate(180)" />
+      <rect x="-9" y="-172" width="18" height="38" rx="5" transform="rotate(210)" />
+      <rect x="-9" y="-172" width="18" height="38" rx="5" transform="rotate(240)" />
+      <rect x="-9" y="-172" width="18" height="38" rx="5" transform="rotate(270)" />
+      <rect x="-9" y="-172" width="18" height="38" rx="5" transform="rotate(300)" />
+      <rect x="-9" y="-172" width="18" height="38" rx="5" transform="rotate(330)" />
+      <circle r="140" />
+      <circle r="44" fill="#0d1011" />
+    </g>
+    <g fill="#0d1011" stroke="#8b9498" stroke-width="1.5">
+      <circle cx="0" cy="-76" r="13" />
+      <circle cx="66" cy="-38" r="13" />
+      <circle cx="66" cy="38" r="13" />
+      <circle cx="0" cy="76" r="13" />
+      <circle cx="-66" cy="38" r="13" />
+      <circle cx="-66" cy="-38" r="13" />
+    </g>
+    <g stroke="#a3e635" stroke-opacity="0.45" stroke-width="1">
+      <path d="M-190 0h30M160 0h30M0 -190v30M0 160v30" />
+    </g>
+  </g>
+
+  <text x="880" y="520" text-anchor="middle" class="mono" font-size="12" fill="#7d878b">PETG · CAMADA 0,2 MM</text>
+
+  <g>
+    <path d="M80 548h1040" stroke="#ffffff" stroke-opacity="0.1" />
+    <text x="80" y="588" class="mono" font-size="13" fill="#7d878b">FABRICA3D / OFICINA</text>
+    <text x="1120" y="588" text-anchor="end" class="mono" font-size="13" fill="#a3e635">ORÇAMENTO PELO WHATSAPP</text>
+  </g>
+</svg>

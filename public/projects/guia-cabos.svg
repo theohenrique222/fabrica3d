@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img">
+  <title>Desenho técnico de um guia de cabos flexível</title>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <rect width="800" height="600" fill="#101314" />
+  <rect width="800" height="600" fill="url(#grid)" />
+
+  <g fill="none" stroke="#8b9498" stroke-opacity="0.5" stroke-width="1">
+    <path d="M28 40h22M40 28v22M750 40h22M772 28v22M28 560h22M40 548v22M750 560h22M772 548v22" />
+  </g>
+
+  <g fill="#262c2e" stroke="#a3e635" stroke-opacity="0.55" stroke-width="1.5">
+    <rect x="250" y="240" width="300" height="140" rx="22" />
+    <path d="M310 240v-20a22 22 0 0 1 22-22h20a22 22 0 0 1 22 22v20" />
+    <path d="M380 240v-20a22 22 0 0 1 22-22h20a22 22 0 0 1 22 22v20" />
+    <path d="M450 240v-20a22 22 0 0 1 22-22h20a22 22 0 0 1 22 22v20" />
+  </g>
+
+  <g fill="none" stroke="#8b9498" stroke-width="6" stroke-linecap="round">
+    <path d="M250 300H190M550 300h60" />
+    <path d="M214 292a12 12 0 0 0 0 16M586 292a12 12 0 0 0 0 16" />
+  </g>
+
+  <g fill="none" stroke="#a3e635" stroke-opacity="0.5" stroke-width="1" stroke-dasharray="4 5">
+    <circle cx="336" cy="310" r="24" />
+    <circle cx="406" cy="310" r="24" />
+    <circle cx="476" cy="310" r="24" />
+  </g>
+
+  <g stroke="#a3e635" stroke-opacity="0.55" stroke-width="1" fill="none">
+    <path d="M250 430h300M250 422v16M550 422v16" />
+    <path d="M250 430l9-5v10ZM550 430l-9-5v10Z" fill="#a3e635" stroke="none" />
+  </g>
+
+  <g fill="#7d878b" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" letter-spacing="1.5">
+    <text x="400" y="454" text-anchor="middle" fill="#a3e635">80 MM</text>
+    <text x="52" y="524" font-size="13" fill="#c9d1d3">GUIA DE CABOS</text>
+    <text x="52" y="544" fill="#7d878b">TPU · FLEXÍVEL · CAMADA 0,2 MM</text>
+    <text x="748" y="524" text-anchor="end">VISTA SUPERIOR</text>
+  </g>
+</svg>

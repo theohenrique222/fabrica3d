@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1125" role="img">
+  <title>Ilustração técnica de uma peça impressa em 3D</title>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1" />
+    </pattern>
+    <radialGradient id="glow" cx="50%" cy="26%" r="55%">
+      <stop offset="0%" stop-color="#a3e635" stop-opacity="0.09" />
+      <stop offset="100%" stop-color="#a3e635" stop-opacity="0" />
+    </radialGradient>
+    <clipPath id="part">
+      <path d="M390 300c0 0-48 72-48 148 0 82 78 118 78 192 0 76-60 140-60 240h180c0-100-60-164-60-240 0-74 78-110 78-192 0-76-48-148-48-148Z" />
+    </clipPath>
+  </defs>
+
+  <rect width="900" height="1125" fill="#0d1011" />
+  <rect width="900" height="1125" fill="url(#glow)" />
+  <rect width="900" height="1125" fill="url(#grid)" />
+
+  <g fill="none" stroke="#8b9498" stroke-opacity="0.45" stroke-width="1">
+    <path d="M36 52h26M49 39v26M838 52h26M864 39v26M36 1060h26M49 1047v26M838 1060h26M864 1047v26" />
+  </g>
+
+  <g stroke="#ffffff" stroke-opacity="0.1" stroke-width="1">
+    <path d="M52 300v580" stroke-dasharray="2 8" />
+    <path d="M470 180v740" stroke-dasharray="2 8" />
+  </g>
+
+  <path
+    d="M390 300c0 0-48 72-48 148 0 82 78 118 78 192 0 76-60 140-60 240h180c0-100-60-164-60-240 0-74 78-110 78-192 0-76-48-148-48-148Z"
+    fill="#22282a"
+    stroke="#a3e635"
+    stroke-opacity="0.6"
+    stroke-width="2"
+  />
+
+  <g clip-path="url(#part)">
+    <g stroke="#ffffff" stroke-opacity="0.07" stroke-width="1.4">
+      <path d="M330 312h240M330 326h240M330 340h240M330 354h240M330 368h240M330 382h240M330 396h240M330 410h240M330 424h240M330 438h240M330 452h240M330 466h240M330 480h240M330 494h240M330 508h240M330 522h240M330 536h240M330 550h240M330 564h240M330 578h240M330 592h240M330 606h240M330 620h240M330 634h240M330 648h240M330 662h240M330 676h240M330 690h240M330 704h240M330 718h240M330 732h240M330 746h240M330 760h240M330 774h240M330 788h240M330 802h240M330 816h240M330 830h240M330 844h240M330 858h240M330 872h240" />
+    </g>
+    <g stroke="#a3e635" stroke-opacity="0.16" stroke-width="1.4">
+      <path d="M330 382h240M330 466h240M330 550h240M330 634h240M330 718h240M330 802h240" />
+    </g>
+    <path d="M366 330c-18 52-22 92-14 136 8 42 40 78 52 126" fill="none" stroke="#a3e635" stroke-opacity="0.28" stroke-width="6" stroke-linecap="round" />
+  </g>
+
+  <ellipse cx="450" cy="300" rx="60" ry="14" fill="#0d1011" stroke="#a3e635" stroke-opacity="0.65" stroke-width="2" />
+  <ellipse cx="450" cy="300" rx="44" ry="9" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1" />
+
+  <g stroke="#a3e635" stroke-opacity="0.5" stroke-width="1" fill="none">
+    <path d="M668 300v580M658 300h20M658 880h20" />
+    <path d="M668 300l-6 10h12ZM668 880l-6-10h12Z" fill="#a3e635" stroke="none" />
+    <path d="M558 448h70M628 448v192M628 640h-70" stroke-dasharray="4 4" />
+  </g>
+
+  <g fill="#7d878b" font-family="ui-monospace, SFMono-Regular, monospace" font-size="15" letter-spacing="2">
+    <text x="684" y="604" fill="#a3e635">180 MM</text>
+
+    <text x="96" y="248" fill="#c9d1d3" font-size="17">PEÇA SOB MEDIDA</text>
+    <text x="96" y="272">PETG · CAMADA 0,2 MM</text>
+    <text x="96" y="296" fill="#a3e635">IMPRESSÃO FDM</text>
+
+    <text x="96" y="1048" fill="#c9d1d3" font-size="17">FABRICA3D / OFICINA</text>
+    <text x="804" y="1048" text-anchor="end">VISTA FRONTAL</text>
+  </g>
+
+  <g stroke="#ffffff" stroke-opacity="0.18" stroke-width="1">
+    <path d="M96 400h22M118 394v12M96 460h16M112 454v12M96 520h16M112 514v12M96 580h16M112 574v12M96 640h16M112 634v12" />
+  </g>
+
+  <g fill="#a3e635">
+    <circle cx="96" cy="330" r="3" />
+    <circle cx="804" cy="330" r="3" />
+  </g>
+</svg>

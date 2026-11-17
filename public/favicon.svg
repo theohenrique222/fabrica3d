@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img">
+  <title>Fabrica 3D</title>
+  <rect width="64" height="64" rx="14" fill="#131719" />
+  <rect x="0.5" y="0.5" width="63" height="63" rx="13.5" fill="none" stroke="#a3e635" stroke-opacity="0.28" />
+  <g fill="none" stroke="#a3e635" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M32 14 52 25 32 36 12 25 32 14Z" />
+    <path d="M12 34 32 45 52 34" stroke-opacity="0.65" />
+    <path d="M12 44 32 55 52 44" stroke-opacity="0.35" />
+  </g>
+</svg>

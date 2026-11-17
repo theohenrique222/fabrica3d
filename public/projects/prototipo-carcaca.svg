@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img">
+  <title>Desenho técnico de uma carcaça para componentes eletrônicos</title>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1" />
+    </pattern>
+    <clipPath id="body">
+      <rect x="220" y="150" width="360" height="300" rx="24" />
+    </clipPath>
+  </defs>
+
+  <rect width="800" height="600" fill="#101314" />
+  <rect width="800" height="600" fill="url(#grid)" />
+
+  <g fill="none" stroke="#8b9498" stroke-opacity="0.5" stroke-width="1">
+    <path d="M28 40h22M40 28v22M750 40h22M772 28v22M28 560h22M40 548v22M750 560h22M772 548v22" />
+  </g>
+
+  <g fill="#262c2e" stroke="#a3e635" stroke-opacity="0.55" stroke-width="1.5">
+    <rect x="220" y="150" width="360" height="300" rx="24" />
+  </g>
+
+  <g clip-path="url(#body)" stroke="#ffffff" stroke-opacity="0.055">
+    <path d="M220 170h360M220 186h360M220 202h360M220 218h360M220 234h360M220 250h360M220 266h360M220 282h360M220 298h360M220 314h360M220 330h360M220 346h360M220 362h360M220 378h360M220 394h360M220 410h360M220 426h360M220 442h360" />
+  </g>
+
+  <g fill="none" stroke="#8b9498" stroke-width="1.4">
+    <rect x="244" y="174" width="312" height="252" rx="12" stroke-dasharray="6 5" stroke-opacity="0.4" />
+    <circle cx="260" cy="190" r="8" />
+    <circle cx="540" cy="190" r="8" />
+    <circle cx="260" cy="410" r="8" />
+    <circle cx="540" cy="410" r="8" />
+    <rect x="330" y="264" width="140" height="72" rx="8" />
+  </g>
+
+  <g fill="#101314" stroke="#a3e635" stroke-opacity="0.5" stroke-width="1.4">
+    <rect x="580" y="238" width="26" height="40" rx="4" />
+    <rect x="580" y="292" width="18" height="18" rx="3" />
+    <rect x="302" y="450" width="44" height="14" rx="4" />
+    <rect x="362" y="450" width="44" height="14" rx="4" />
+  </g>
+
+  <g stroke="#a3e635" stroke-opacity="0.55" stroke-width="1" fill="none">
+    <path d="M220 506h360M220 498v16M580 498v16" />
+    <path d="M220 506l9-5v10ZM580 506l-9-5v10Z" fill="#a3e635" stroke="none" />
+  </g>
+
+  <g fill="#7d878b" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" letter-spacing="1.5">
+    <text x="400" y="530" text-anchor="middle" fill="#a3e635">96 MM</text>
+    <text x="52" y="524" font-size="13" fill="#c9d1d3">PROTÓTIPO DE CARCAÇA</text>
+    <text x="52" y="544" fill="#7d878b">PLA · CAMADA 0,2 MM</text>
+    <text x="748" y="544" text-anchor="end">VISTA FRONTAL</text>
+  </g>
+</svg>

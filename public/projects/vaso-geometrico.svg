@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img">
+  <title>Desenho técnico de um vaso geométrico impresso em camadas</title>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1" />
+    </pattern>
+    <clipPath id="vase">
+      <path d="M340 128c0 0-26 34-26 82 0 52 44 82 44 132 0 58-40 108-40 168h164c0-60-40-110-40-168 0-50 44-80 44-132 0-48-26-82-26-82Z" />
+    </clipPath>
+  </defs>
+
+  <rect width="800" height="600" fill="#101314" />
+  <rect width="800" height="600" fill="url(#grid)" />
+
+  <g fill="none" stroke="#8b9498" stroke-opacity="0.5" stroke-width="1">
+    <path d="M28 40h22M40 28v22M750 40h22M772 28v22M28 560h22M40 548v22M750 560h22M772 548v22" />
+  </g>
+
+  <path
+    d="M340 128c0 0-26 34-26 82 0 52 44 82 44 132 0 58-40 108-40 168h164c0-60-40-110-40-168 0-50 44-80 44-132 0-48-26-82-26-82Z"
+    fill="#262c2e"
+    stroke="#a3e635"
+    stroke-opacity="0.6"
+    stroke-width="1.5"
+  />
+
+  <g clip-path="url(#vase)" stroke="#a3e635" stroke-opacity="0.16" stroke-width="1">
+    <path d="M300 146h200M300 162h200M300 178h200M300 194h200M300 210h200M300 226h200M300 242h200M300 258h200M300 274h200M300 290h200M300 306h200M300 322h200M300 338h200M300 354h200M300 370h200M300 386h200M300 402h200M300 418h200M300 434h200M300 450h200M300 466h200M300 482h200M300 498h200" />
+  </g>
+
+  <ellipse cx="400" cy="128" rx="60" ry="12" fill="#101314" stroke="#a3e635" stroke-opacity="0.6" stroke-width="1.5" />
+
+  <g stroke="#a3e635" stroke-opacity="0.55" stroke-width="1" fill="none">
+    <path d="M560 128v382M552 128h16M552 510h16" />
+    <path d="M560 128l-5 9h10ZM560 510l-5-9h10Z" fill="#a3e635" stroke="none" />
+  </g>
+
+  <g fill="#7d878b" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" letter-spacing="1.5">
+    <text x="574" y="324" fill="#a3e635">180 MM</text>
+    <text x="52" y="524" font-size="13" fill="#c9d1d3">VASO GEOMÉTRICO</text>
+    <text x="52" y="544" fill="#7d878b">PLA · CAMADA 0,16 MM</text>
+    <text x="748" y="524" text-anchor="end">VISTA FRONTAL</text>
+  </g>
+</svg>
